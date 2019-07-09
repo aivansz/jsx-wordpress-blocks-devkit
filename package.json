@@ -1,0 +1,27 @@
+{
+  "name": "jsx-wp-blocks",
+  "version": "0.0.1",
+  "description": "Wordpress Blcoks Dev Kit",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "cross-env": "^5.0.1",
+    "uglifyjs-3-webpack-plugin": "^1.2.4",
+    "webpack": "^3.1.0"
+  },
+  "scripts": {
+    "build": "cross-env BABEL_ENV=default NODE_ENV=production webpack",
+    "dev": "cross-env BABEL_ENV=default webpack --watch"
+  },
+  "keywords": [
+    "wordpress",
+    "gutemberg",
+    "blocks",
+    "jsx"
+  ],
+  "author": "Ivan Oliveira",
+  "license": "GPL2+"
+}
